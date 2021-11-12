@@ -7,6 +7,7 @@ html,
 body {
   margin-left: 0;
   margin-right:0;
+  font-size:1.125em;
 }
 
 /* Adding My Styles*/
@@ -14,15 +15,26 @@ body {
   max-width:800px;
   margin: 0 auto;
 }
-h1 {
-  margin-bottom:2rem;
+.intro-chunk{
+  padding-top: 96px;
+  max-width: 400px;
+  padding-left:24px;
+}
+.intro-chunk .title {
+  margin-bottom:32px;
+  font-size:2rem;
+}
+.intro-chunk p{
+  font-size:1.25em;
+}
+.intro-chunk:last-child{
+  margin-bottom:0;
 }
 header {
   background-color: #ffff;
-  padding-top:40px;
-  padding-left:60px;
-  padding-bottom:40px;
-  padding-right:60px;
+  padding-right:32px;
+  padding-bottom:32px;
+  padding-left:32px;
 }
 
  main {
@@ -30,10 +42,10 @@ header {
   border-top:solid;
   border-width:5px;
   border-color:dimgray;
-  padding-top:40px;
-  padding-left:60px;
-  padding-bottom:40px;
-  padding-right:60px;
+  padding-top:32px;
+  padding-left:64px;
+  padding-bottom:32px;
+  padding-right:64px;
 }
 strong{
   color: #428c75 !important;
@@ -43,29 +55,34 @@ strong{
   background-color: white;
   border-bottom:solid dimgray;
   border-width:5px;
-  padding-top:40px;
+  padding-top:32px;
   padding-left:0px;
-  padding-bottom:40px;
-  padding-right:60px;
+  padding-bottom:32px;
+  padding-right:64px;
   
   
+}
+.card p{
+  font-size:1.25em;
 }
 .indented-heading {
   background-color: gold;
   margin-left:-10px;
-  margin-top:-30px;
+  margin-top:-24px;
   width: fit-content;
-  padding: 20px;
+  padding: 32px;
   border-bottom: solid;
   border-color:goldenrod;
   border-width:5px;
+  font-size:2rem;
 }
-.body-text {
-  padding-left:20px;
-  padding-right:20px;
+.body-text{
+padding-right:32px;
+padding-bottom:32px;
+padding-left:32px;
+}
+.body-text:last-child{
+  margin-bottom:0;
+}
 
-}
-p{
-  width:fit-content;
-}
 
